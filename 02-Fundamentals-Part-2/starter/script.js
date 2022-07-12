@@ -1,29 +1,24 @@
-'use strict'; /* strict mode */
+// "use strict";
 
-/*
-let hasDriversLicense = false;
-const passTest = true;
+// let hasDriversLicense = false;
+// let passTest = true;
 
-if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log(`I can drive`);
+// if (passTest) hasDriversLicense = true;
+// if (hasDriversLicense) console.log(`I can drive`);
 
+// function logger() {
+//   console.log(`My name is Jonas`);
+// }
 
-
-function logger() {
-    console.log(`My name is Leo`);
-}
-
-logger();
-*/
+// logger();
 
 function fruitProcessor(apples, oranges) {
-    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-    return juice;
+  const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+  return juice;
 }
 
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
-// console.log(fruitProcessor(5,0));
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
